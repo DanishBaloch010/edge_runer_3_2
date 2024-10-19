@@ -1,0 +1,23 @@
+This is complete vertically stacked image of multiple consecutive ordered pages of an IELTS reading passage. Your task is to carefully analyze the image and extract all the text from it. The passages are long so thats why whole passage is given to you in a form of vertically stiched one picture.
+
+
+STRICT IMPORTANT NOTE: I NEED EXTRACTED DATA IN THE FORMAT THAT I AM SAYING TO YOU WITHOUT ANY EXPLANATIONS OR SUGGESTIONS FROM YOUR SIDE. I AM A PROGRAMMER AND I WILL USE YOUR OCR EXTRACTED TEXT IN MY APPLICATION. I NEED ONLY REQUIRED EXTRACTED DATA FROM YOU AND NOTHING ELSE.
+
+Some visual cues to assist you in this process:
+1- There are most probably instructions too for the students to read the passage(they are mostly in the start of the picture), i also need those instructions.
+2- The largest and boldest text at the top of the picture is likely the title of the passage.
+3- If there is a subtitle present that will always be below the main title of the passage, although sometimes a subtitle is absent for the passage and not provided by the IELTS.
+4- Heading and subtitle are always relevant to each other and they describe an overall idea about the text in the main body of the passage.
+5- Following the heading (and potential subtitle), you'll find the main body of the passage. When you are extracting the text from the main body make sure you keep the format of paragraphs the same as depicted in the picture. for every start of new paragraph insert a '\n' (line break), so that my parser later understand that this is the start of a new paragraph. There can be a case where a half portion of the last paragraph is in the first page and the other remaining half is at the start of the second page, which means a parapraph might continue to the next page but it is only one paragraph as a whole.
+6- According to official IELTS website the reading passages have 2000-3000 words in the main body as a whole.
+
+Please extract all my mentioned and required details from the image, as I will conduct further analysis on it afterward.
+
+Please deeply analyze the full text of the passage and return it in the following JSON format: 
+{
+    "instructions": "Instruction by IELTS (if present otherwise write None)",
+    "title": "Extracted Title Here",
+    "subtitle": "Extracted Subtitle Here (if present otherwise write None)",
+    "text": "Full text of the passage here."
+
+}
