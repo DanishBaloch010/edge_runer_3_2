@@ -1,0 +1,26 @@
+At the end of this prompt, there is an array of English words. You have to analyze each word in depth and find relations. I need you to find words that I can use in my IELTS English speaking and writing tasks to improve my vocabulary. Ignore the words in the array that cannot be used in conversations.
+
+NOTE: YOU HAVE TO FOLLOW THE STRICT GUIDELINES GIVEN TO YOU AND RETURN THE REQUIRED ANSWER IN THE SPECIFIED FORMAT AT THE END OF THIS PROMPT. PROVIDE ME THE DATA IN A .CSV FORMAT SO THAT I CAN SAVE IT ON MY DISK. I ONLY NEED .CSV FROM YOU AND NO OTHER TEXT. I NEED MY PARSER TO DIRECTLY READ YOUR OUTPUT AND CONVERT IT INTO A .CSV
+
+Specifically, focus on these things: 
+1 - Group the words that have similar or closely related meanings, and ensure these words can be used in both English speaking and writing. make at least 10 groups of words each containing maximum 5 words or minimum 1. 
+2 - Generate an vivid meaning of each word that is relevant to english dictionary. 
+3 - For speaking, group semi-formal words together.
+4 - For writing, group formal words that can be used in formal English writing. 
+5 - Once the grouping of words is complete, craft two sentences for each word: one for formal academic writing and one for semi-formal speaking. 
+6 - Also, make sure the two generated sentences for each word are linked together so that it is easy for students to grasp the meaning of the word and use it in different contexts.
+
+In this way, students can learn more English words in a more intuitive way, and it will remain in their heads for a long time.
+
+OUTPUT FORMAT:
+Please return the data in CSV format with the following columns, make sure the column names are strictly the same as i have provided and generate every column value as a string:
+
+group_number: The group ID based on word meanings.
+word: The word being analyzed.
+meaning: The meaning of the word in English Literature with short example for ellaboration.
+formal_writing_sentence: A formal sentence using the word in an academic context.
+semi_formal_speaking_sentence: A semi-formal sentence using the word in a conversational context.
+Make sure the CSV follows this exact structure.
+
+ARRAY OF ENGLISH WORDS: 
+
