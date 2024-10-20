@@ -5,3 +5,5 @@ the pictures are of ielts book 19 test 3 reading section.
 this is the pdf link that you can download.
 
 https://drive.google.com/file/d/1zOsytg0swHWNcqFLGy6h1FAzqFw1SsKB/view?usp=sharing
+
+new work, after extracting the passage i have pre-processed the passage and sent it to llm again to genearate a csv for vocabulary that is vivid. the idea is to showcase this csv on the front end.
