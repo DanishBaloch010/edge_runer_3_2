@@ -12,9 +12,11 @@ from nltk.tokenize import word_tokenize
 from together import Together
 from dotenv import load_dotenv
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 
 app = Flask(__name__)
 load_dotenv()
+CORS(app)
 
 nltk.download('punkt')
 nltk.download('punkt_tab')
@@ -235,6 +237,7 @@ def recommend():
         # Pass the image path to start_process
         obj = VocabAPI()
         extracted_text = obj.start_process(image_path)  # Pass single image path in a list
+        print(extracted_text)
 
         return jsonify({"vocab": extracted_text}), 200
 
