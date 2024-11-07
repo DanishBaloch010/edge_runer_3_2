@@ -6,23 +6,17 @@
 
 ![image](https://github.com/user-attachments/assets/217ed897-4a50-4822-91a1-836278455f09)
 
-
 ## Quick 59 sec DEMO Link 🎥
 
 https://youtu.be/PDJogL7dYfA
 
-
 ## Full feature 5 minute presentation Link 🎥
 
 https://youtu.be/5zZxkT3Goic
+
 ## DEMO Link on Official Lablab Website (Requires Sign-in)🎥
 
 https://lablab.ai/event/edge-runners-3-point-2/teammapper/testfasttrack
-
-
-
-
-
 
 ## Some notes while in Hackathon
 
