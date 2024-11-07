@@ -1,3 +1,8 @@
+## Winning Certificate ️‍🔥
+
+![Lablab_winning_certificate](https://github.com/user-attachments/assets/2b48139c-3b78-41fd-bc13-2ae42f964d5e)
+
+
 1- the .ipynb file have all the code for stiching the images, sending the images to llama and getting the response back. you can view the prompts too in the .txt file.
 
 also the pictures are in the folder.
