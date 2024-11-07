@@ -11,6 +11,8 @@
 https://lablab.ai/event/edge-runners-3-point-2/teammapper/testfasttrack
 
 
+## Some notes while in Hackathon
+
 1- the .ipynb file have all the code for stiching the images, sending the images to llama and getting the response back. you can view the prompts too in the .txt file.
 
 also the pictures are in the folder.
